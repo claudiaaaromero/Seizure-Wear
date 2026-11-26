@@ -7,6 +7,6 @@ public class ClaudiaController {
 
     @GetMapping("/claudia")
     public String info() {
-        return "Información del casco de protección";
+        return "Estado de la pulsera: conectada";
     }
 }
